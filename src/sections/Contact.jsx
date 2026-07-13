@@ -72,14 +72,19 @@ export default function Contact() {
                 <ArrowUpRight size={18} />
               </a>
 
-              <a href={`tel:${profile.phone.replace(/[^+\d]/g, '')}`} className="contact-link-card">
-                <span className="contact-icon"><Phone size={19} /></span>
-                <span>
-                  <small>Phone</small>
-                  <strong>{profile.phone}</strong>
-                </span>
-                <ArrowUpRight size={18} />
-              </a>
+              <a 
+  href={`https://wa.me/${profile.phone.replace(/\D/g, '').replace(/^0/, '62')}`} 
+  className="contact-link-card"
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <span className="contact-icon"><Phone size={19} /></span> {/* Sesuaikan icon jika memiliki icon spesifik WhatsApp */}
+  <span>
+    <small>WhatsApp</small>
+    <strong>{profile.phone}</strong>
+  </span>
+  <ArrowUpRight size={18} />
+</a>
 
               <div className="contact-link-card contact-link-static">
                 <span className="contact-icon"><MapPin size={19} /></span>

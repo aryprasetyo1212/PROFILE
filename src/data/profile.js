@@ -3,8 +3,8 @@ export const profile = {
   initials: 'NDA',
   role: 'Sustainable Agriculture & Digital Technology Enthusiast',
   location: 'Indonesia',
-  email: 'your.email@example.com',
-  phone: '+62 xxx-xxxx-xxxx',
+  email: 'nurmulyadwiatikaarmy@gmail.com',
+  phone: '+62 856 5618 5026',
   photo: '/nda.jpeg',
   cvFile: '/Nurmulya-Dwi-Atika-CV.pdf',
   shortBio:
